@@ -11,7 +11,7 @@ const myNotes = [2000, 500, 100, 20, 10, 5, 1];
 checkButton.addEventListener("click", function(){
     hideMessage();
     if(billAmount.value > 0){
-        if(billAmount.value <= cashAmount.value){
+        if(Number(billAmount.value) <= Number(cashAmount.value)){
             const remainAmount = cashAmount.value - billAmount.value;
             changeCalculate(remainAmount);
         }else{
