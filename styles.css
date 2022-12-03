@@ -8,7 +8,7 @@
 }
 body{
    min-width: 100vw;
-   background-color: antiquewhite;
+   /* background-color: antiquewhite; */
 }
 .container{
     margin: 1rem auto 5rem;
@@ -118,6 +118,6 @@ a {
   
     @media (max-width: 360px){
       footer {
-          top: 35rem;
+          top: 40rem;
         }
     }
