@@ -11,7 +11,7 @@ body{
    background-color: antiquewhite;
 }
 .container{
-    margin: 3rem auto 5rem;
+    margin: 1rem auto 5rem;
     text-align: center;
 }
 .my-heading{
@@ -75,3 +75,49 @@ th,td{
     width: 0%;
     padding: 0.5rem;
 }
+
+/* footer */
+a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+  }
+  
+  
+  a,
+  img,
+  li {
+    display: inline;
+  }
+  
+  img {
+    width: 40px;
+    padding: 1rem 0.4rem;
+  }
+  
+  @media (max-width: 900px){
+    footer {
+        top: 35rem;
+      }
+  }
+    /* for extra small devices */
+  
+    @media (max-width: 360px){
+      footer {
+          top: 35rem;
+        }
+    }
