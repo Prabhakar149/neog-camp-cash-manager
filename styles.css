@@ -111,13 +111,13 @@ a {
   
   @media (max-width: 900px){
     footer {
-        top: 35rem;
+        top: 45rem;
       }
   }
     /* for extra small devices */
   
     @media (max-width: 360px){
       footer {
-          top: 40rem;
+          top: 50rem;
         }
     }
